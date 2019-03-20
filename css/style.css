@@ -1,0 +1,94 @@
+.image-wrapper {
+    text-align: center;
+}
+
+.image-wrapper .thumbnail {
+    display: inline-block;
+}
+
+.book-title {
+    min-height: 36px;
+    max-height: 36px;
+    overflow: hidden;
+}
+
+.menu {
+    list-style-type: none;
+    overflow: auto;
+}
+
+.menu li {
+    float: left;
+    padding: 2px;
+}
+
+.center-div {
+    display: flex;
+    padding-top: 5%;
+    flex-direction: column;
+}
+
+.form-register,
+.form-login {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-register ul,
+.form-login ul {
+    list-style-type: none;
+}
+
+.messages .alert {
+    padding: 5px;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.user-logged-out .logged-in,
+.user-logged-in .logged-out {
+    display: none;
+}
+
+.book-description {
+    text-align: justify;
+}
+
+.icon {
+    max-width: 50px;
+    max-height: 100px;
+}
+
+.book-rating {
+    margin-top: 50px;
+}
+
+form {
+    padding: 0.5em;
+}
+
+#admin-book-table td {
+    text-align: center;
+}
+
+.book-box {
+    min-height: 274px;
+    background-color: #f3f3f3;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.img-thumbnail {
+    max-height: 200px;
+    height: 200px;
+    width: auto;
+    max-width: 230px;
+}
+
+#admin-header {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
