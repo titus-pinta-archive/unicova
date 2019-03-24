@@ -1,0 +1,5 @@
+#! /bin/bash
+sudo mongod --auth & disown
+sudo rabbitmq-server & disown
+celery -A worker mongo & disown
+gunicorn -w 1024 --worker-class eventlet -b 127.0.0.1:4000 server:app & disown
